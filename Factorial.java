@@ -9,11 +9,23 @@ public class Factorial{
 		System.out.print("Enter number to get the factorial: ");
 		int number = input.nextInt();
 
-		for(loops = 0; loops <= number; loops++){
+		for(loops = 1; loops <= number; loops++){
 			number -= 1;
-		}
-			factorial *= number - 1;
+		
+			factorial *= (number+1);
 			System.out.print(number+1);
-			System.out.printf("%nThe factorials of %d is = %d%n ",number, factorial);
+			//System.out.print(factorial);
+		}
 	}
 }
+
+
+/**factorial = 1
+counter = 1
+for decrement in range (0, number):
+	number -= 1
+	print(number+1," ", end="")
+
+	factorial *= (number+1)
+print("\n\nThe Factorials of the number equals = ",factorial) 
+	**/
