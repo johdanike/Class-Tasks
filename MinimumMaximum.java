@@ -71,8 +71,8 @@ public class MinimumMaximum{
 		
 
 
-		System.out.println("Largest number is = "+largestNum);
-		System.out.println("Smallest number is = "+smallestNum);
+		System.out.println("Maximun number is = "+largestNum);
+		System.out.println("Minimum number is = "+smallestNum);
 
 
 	}
